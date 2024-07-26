@@ -21,8 +21,10 @@ public class check_prime {
       }
     }
 
-    if (!flag)
+    if (!flag) {
       System.out.println(num + " is a prime number.");
+      System.out.println("Ah thork");
+    }
     else
       System.out.println(num + " is not a prime number.");
 
