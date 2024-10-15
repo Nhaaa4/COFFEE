@@ -5,7 +5,7 @@ public class check_prime {
     boolean flag = false;
     Scanner myObj = new Scanner(System.in);
 
-    System.out.println("Enter number");
+    System.out.print("Enter number: ");
     int num = myObj.nextInt();
 
     if (num < 2) {
